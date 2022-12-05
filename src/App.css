@@ -1,0 +1,41 @@
+.jokeContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+.jokeCard {
+  padding: 15px;
+  margin: 40px;
+  width: 80vh;
+  box-shadow: 10px 10px;
+  background-color: white;
+  transition: 1.1s;
+}
+
+.jokeCard:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.2)
+}
+
+.jokeCardNoSetup{
+  padding: 15px;
+  margin: 40px;
+  width: 80vh;
+  box-shadow: 10px 10px;
+  background-color: white;
+  transition: 1.1s;
+}
+
+.jokeCardNoSetup:hover{
+  background-color: black;
+  color: white;
+}
+
+.punchline {
+  color: white;
+}
